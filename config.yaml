@@ -27,7 +27,7 @@ monitors:
   - id: www-cloudflare-com
     name: ChatGPT官网
     description: '官网状态，如果官网挂了，镜像也会挂'
-    url: 'https://www.chatgpt.com'
+    url: 'https://chatgpt.com'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
