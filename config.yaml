@@ -17,7 +17,7 @@ settings:
 monitors:
   - id: workers-cloudflare-com # unique identifier
     name: ChatGPT拼车小队
-    description: 'You write code. They handle the rest.' # default=empty
+    description: '镜像站状态' # default=empty
     url: 'https://52cuc.lol/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
@@ -26,7 +26,7 @@ monitors:
 
   - id: www-cloudflare-com
     name: ChatGPT官网
-    description: 'Built for anything connected to the Internet.'
+    description: '官网状态，如果官网挂了，镜像也会挂'
     url: 'https://www.chatgpt.com'
     method: GET
     expectStatus: 200
