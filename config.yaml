@@ -18,11 +18,11 @@ monitors:
   - id: workers-cloudflare-com # unique identifier
     name: ChatGPT拼车小队
     description: '镜像站状态' # default=empty
-    url: 'https://52cuc.lol/' # URL to fetch
+    url: 'http://23.94.86.135' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
-    linkable: true # allows the title to be a link, default=true
+    linkable: false # allows the title to be a link, default=true
 
   - id: www-cloudflare-com
     name: ChatGPT官网
